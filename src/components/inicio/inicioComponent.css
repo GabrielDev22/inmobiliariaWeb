@@ -1,0 +1,99 @@
+.contenedorInicio{
+    opacity: 0.9;
+    background-color: black;
+}
+
+.contenedorImagen{
+    width: 100%;
+    height: 100%;
+}
+
+.imagenInicio{
+    width: 100%;
+    height: 652px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.tituloInicio{
+    text-shadow: 1px 1px 10px black;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    margin-left: 28rem;
+    margin-top: 15rem;
+    position: absolute;
+}
+
+.textoInicio{
+    position: absolute;
+    margin-left: 32rem;
+    margin-top: 20rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 10px black;
+    font-size: 20px;
+    color: white;
+}
+
+.buttonInicio{
+    border: 1px solid #999;
+    background-color: #E50E0B;
+    width: 180px;
+    padding: 10px;
+    position: absolute;
+    margin-left: 36rem;
+    margin-top: 25rem;
+}
+
+.linkInicio{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/* SEGUNDA SECCION */
+
+.contenedorBusquedad{
+    border: 1px solid black;
+}
+
+.subContenedorBusquedad{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloBusquedad{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4b4a4a;
+    margin-left: 33rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+.contenidoBusquedad{
+    box-shadow: 25px 25px 50px black;
+    opacity: 0.9;
+}
+
+.subtituloBusquedad{
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    font-size: 80px;
+    position: absolute;
+    margin-left: 8rem;
+    margin-top: 14rem;
+}
+
+.subtituloBusquedad:hover{
+    color: #E50E0B;
+}
+
+.imagenBusquedad{
+    width: 35rem;
+    height: 30rem;
+    border: 1px solid #999;
+
+}

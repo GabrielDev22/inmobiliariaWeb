@@ -57,7 +57,9 @@
 /* SEGUNDA SECCION */
 
 .contenedorBusquedad{
-    border: 1px solid black;
+    height: 40rem;
+    border-radius: 10px;
+    background-color: #091D35;
 }
 
 .subContenedorBusquedad{
@@ -67,7 +69,7 @@
 
 .tituloBusquedad{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #4b4a4a;
+    color: #e3e3e3;
     margin-left: 33rem;
     margin-top: 8rem;
     margin-bottom: 2rem;
@@ -94,6 +96,4 @@
 .imagenBusquedad{
     width: 35rem;
     height: 30rem;
-    border: 1px solid #999;
-
 }

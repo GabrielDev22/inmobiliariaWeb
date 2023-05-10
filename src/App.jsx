@@ -4,6 +4,7 @@ import {InicioPage} from "./pages/inicio/inicioPage";
 import {NavBarPage} from "./pages/navBar/navBarPage";
 import {VentaPage} from "./pages/venta/ventaPage";
 import {RentaPage} from "./pages/renta/rentaPage";
+import {ClientePage} from "./pages/clientes/clientesPage";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <InicioPage></InicioPage>
       <VentaPage></VentaPage>
       <RentaPage></RentaPage>
+      <ClientePage></ClientePage>
     </>
   )
 }

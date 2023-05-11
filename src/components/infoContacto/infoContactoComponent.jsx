@@ -18,7 +18,7 @@ export const InfoContactoComponent = () =>{
                     <label className="labelContacto">Apellido</label>
                     <input className="inputContacto" type="text" required/>
 
-                    <label className="labelContacto">Email*</label>
+                    <label className="labelContacto">Email<span style={{color: "red"}}>*</span></label>
                     <input className="inputContacto" type="gmail" required />
 
                     <div className="radioInput">
@@ -31,7 +31,7 @@ export const InfoContactoComponent = () =>{
                         <label className="labelContacto">Otro</label>
                     </div>
 
-                    <label htmlFor="">Mensaje</label>
+                    <label style={{marginLeft: "12rem"}}>Mensaje</label>
                     <textarea className="textareaContacto" cols="30" rows="10"></textarea>
                 </form>
                 </div> 

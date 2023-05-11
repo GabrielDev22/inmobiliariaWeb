@@ -29,7 +29,6 @@
 
 .contenedorFormulario{
     width: 90rem;
-    border: 1px solid white;
     display: flex;
 }
 
@@ -42,10 +41,9 @@ label{
 
 .formularioContacto{
     width: 40rem;
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .inputContacto{

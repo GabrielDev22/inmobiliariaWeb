@@ -1,0 +1,52 @@
+.contenedorNavBar{
+    background-color: #091D35;
+    height: 60px;
+}
+
+.contenidoNavbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoNavBar{
+    width: 120px;
+    border: 1px solid white;
+}
+
+.redesSocialesNavBar{
+    width: 25rem;
+    margin-left: 20rem;
+}
+
+.svgRedesSocialesNavbar{
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.svgRedesSocialesNavbar:hover{
+    background-color: #E50E0B;
+    border-radius: 10px;
+}
+
+.linksPaginaNavBar{
+    display: flex;
+    width: 30rem;
+    height: 60px;
+}
+
+.listadoNavbar{
+    display: flex;
+    list-style: none;
+}
+
+.linksPaginasNavbar{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 25px;
+    margin-top: 20px;
+    color: white;
+}
+
+.linksPaginaNavBar:hover{
+    color: #E50E0B;
+}

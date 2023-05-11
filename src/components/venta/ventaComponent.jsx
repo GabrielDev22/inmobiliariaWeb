@@ -3,7 +3,7 @@ import "./ventaComponent.css";
 export const VentaComponent = () => {
     return(
         <div>  
-            <h4 className="subtituloVenta">NUEVOS PREDIOS</h4>
+            <h4 className="subtituloVenta">NUEVOS PRECIOS</h4>
             <h2 className="tituloVenta">En Venta</h2>
             <hr />
 

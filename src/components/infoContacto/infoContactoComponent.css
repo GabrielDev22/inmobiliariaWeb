@@ -1,0 +1,75 @@
+.formulario{
+    width: 100%;
+    height: 40rem;
+    background-color: #1D2D42;
+    display: flex;
+}
+
+.contenedorInfoContacto{
+    width: 50rem;
+}
+
+.subtituloInfo{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 40px;
+    color: white;
+}
+
+.textoInfo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 30rem;
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    font-size: 20px;
+    color: white;
+}
+
+.contenedorFormulario{
+    width: 90rem;
+    border: 1px solid white;
+    display: flex;
+}
+
+label{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 20px;
+}
+
+.formularioContacto{
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputContacto{
+    background-color: #eceaea;
+    width: 25rem;
+    padding: 6px;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+
+.radioInput{
+    margin-top: 40px;
+}
+
+.inputRadio{
+    margin-left: 40px;
+}
+
+.textareaContacto{
+    background-color: #eceaea;
+    width: 30rem;
+    border-radius: 10px;
+}

@@ -5,6 +5,9 @@ import {NavBarPage} from "./pages/navBar/navBarPage";
 import {VentaPage} from "./pages/venta/ventaPage";
 import {RentaPage} from "./pages/renta/rentaPage";
 import {ClientePage} from "./pages/clientes/clientesPage";
+import {ContactanosPage} from "./pages/contactanos/contactanosPage";
+import {InfoContactoPage} from "./pages/infoContacto/infoContactoPage";
+import {FooterPage} from "./pages/footer/footerPage";
 
 function App() {
 
@@ -15,6 +18,9 @@ function App() {
       <VentaPage></VentaPage>
       <RentaPage></RentaPage>
       <ClientePage></ClientePage>
+      <ContactanosPage></ContactanosPage>
+      <InfoContactoPage></InfoContactoPage>
+      <FooterPage></FooterPage>
     </>
   )
 }

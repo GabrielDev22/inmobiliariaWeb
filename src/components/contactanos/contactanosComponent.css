@@ -43,3 +43,48 @@
     margin-top: 15px;
     margin-left: 40px;
 }
+
+@media (max-width: 768px){
+    .contenedorContactanos{
+        width: 420px;
+        height: 20rem;
+    }
+
+    .tituloContactanos{
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    
+    .contenidoContactanos{
+        display: flex;
+        margin-top: 2rem;
+    }
+    
+    .informacinContactanos{
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .imagenContactanos{
+        width: 50px;
+        margin-left: 2rem;
+    }
+    
+    .subtituloContactanos{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        color: #474849;
+        margin-top: 5px;
+        margin-right: 2px;
+    }
+    
+    .textoContactanos{
+        width: 100px;
+        color: #2B2B2B;
+        font-size: 14px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+}

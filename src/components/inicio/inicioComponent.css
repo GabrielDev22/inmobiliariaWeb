@@ -1,6 +1,5 @@
 .contenedorInicio{
-    opacity: 0.9;
-    background-color: black;
+    background-color: white;
 }
 
 .contenedorImagen{
@@ -41,7 +40,7 @@
     width: 180px;
     padding: 10px;
     position: absolute;
-    margin-left: 36rem;
+    margin-left: 34rem;
     margin-top: 25rem;
 }
 
@@ -50,6 +49,48 @@
     text-decoration: none;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media (max-width: 768px){
+    .contenedorImagen{
+        width: 450px;
+        height: 450px;
+    }
+
+    .imagenInicio{
+        width: 420px;
+        height: 400px;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+
+    .tituloInicio{
+        text-shadow: 1px 1px 10px wheat;
+        color: #091D35;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        margin-left: 6.5rem;
+        margin-top: 30rem;
+    }
+
+    .textoInicio{
+        margin-left: 8rem;
+        margin-top: 33rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-shadow: 1px 1px 10px wheat;
+        font-size: 14px;
+        color: #091D35;
+    }
+    
+    .buttonInicio{
+        border: 1px solid #999;
+        background-color: #E50E0B;
+        width: 180px;
+        padding: 10px;
+        position: absolute;
+        margin-left: 6.5rem;
+        margin-top: 36rem;
+    }
 }
 
 
@@ -96,4 +137,44 @@
 .imagenBusquedad{
     width: 35rem;
     height: 30rem;
+}
+
+@media (max-width: 768px){
+    .contenedorBusquedad{
+        height: 50rem;
+    }
+    
+    .subContenedorBusquedad{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tituloBusquedad{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #e3e3e3;
+        margin-left: 4.5rem;
+        margin-top: 20rem;
+        margin-bottom: 2rem;
+    }
+    
+    .contenidoBusquedad{
+        box-shadow: 25px 25px 50px black;
+        opacity: 0.9;
+        margin-bottom: 2rem;
+    }
+    
+    .subtituloBusquedad{
+        color: white;
+        text-shadow: 1px 1px 10px black;
+        font-size: 40px;
+        position: absolute;
+        margin-left: 10rem;
+        margin-top: 10rem;
+    }
+    
+    .imagenBusquedad{
+        width: 30rem;
+        height: 20rem;
+    }
 }

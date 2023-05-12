@@ -1,52 +1,88 @@
-.contenedorNavBar{
+.navbar{
     background-color: #091D35;
     height: 60px;
-}
-
-.contenidoNavbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.logoNavBar{
-    width: 120px;
-    border: 1px solid white;
-}
-
-.redesSocialesNavBar{
-    width: 25rem;
-    margin-left: 20rem;
-}
-
-.svgRedesSocialesNavbar{
-    margin-left: 50px;
-    margin-top: 15px;
-}
-
-.svgRedesSocialesNavbar:hover{
-    background-color: #E50E0B;
-    border-radius: 10px;
-}
-
-.linksPaginaNavBar{
-    display: flex;
-    width: 30rem;
-    height: 60px;
-}
-
-.listadoNavbar{
-    display: flex;
-    list-style: none;
-}
-
-.linksPaginasNavbar{
-    font-size: 18px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 25px;
-    margin-top: 20px;
+.nav_logo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 15px;
     color: white;
 }
 
-.linksPaginaNavBar:hover{
+.nav_items a {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+}
+
+.redesSociales{
+    display: none;
+}
+
+.nav_items a:hover{
+    transition: all 0.3s;
     color: #E50E0B;
+}
+
+.nav_toggle{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .nav_items{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #091D35;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: -webkit-fill-available;
+        transform: translateX(-100%);
+        transition: 0.3s ease all;
+    }
+
+    .nav_items.open{
+        transform: translateX(0) !important;
+    }
+
+    .nav_toggle{
+        display: flex !important;
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .nav_toggle span{
+        width: 30px;
+        height: 4px;
+        background-color: white;
+        margin-bottom: 5px;
+        border-radius: 2px;
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+    }
+
+    .nav_toggle.open > span{
+        transform: rotate(45deg) translate(0px, 0px);
+    }
+    .nav_toggle.open > span:nth-child(2){
+        display: none;
+    }
+
+    .nav_toggle.open > span:nth-child(3){
+        transform: rotate(-45deg) translate(-5px, 1px);
+    }
+
+    .redesSociales{
+        display: flex;
+    }
+
 }

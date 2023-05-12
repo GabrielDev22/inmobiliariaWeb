@@ -68,3 +68,66 @@
 .svgRedesSociales:hover{
     background-color: #091D35;
 }
+
+@media (max-width: 768px){
+    .contenedorFooter{
+        width: 420px;
+        height: 25rem;
+        display: flex;
+    }
+
+    .seccionMarca{
+        width: 20rem;
+    }
+    
+    .logoMarca{
+        width: 200px;
+        height: 100px;
+    }
+    
+    .textoMarca{
+        font-family: cursive;
+        font-size: 16px;
+        margin-left: 20px;
+        color: white;
+    }
+    
+    .seccionPaginas{
+        width: 60rem;
+    }
+    
+    .listaLinksPagina{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5rem;
+        margin-bottom: 3.5rem;
+        list-style: none;
+    }
+    
+    .linksPagina{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+        color: white;
+    }
+    
+    .direccionMarca{
+        margin-top: 10px;
+    }
+    
+    .contenedorRedesSociales{
+        display: flex;
+        margin-top: 4rem;
+        border: 1px solid white;
+    }
+    
+    .svgRedesSociales{
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+    
+    .svgRedesSociales:hover{
+        background-color: #091D35;
+    }
+}

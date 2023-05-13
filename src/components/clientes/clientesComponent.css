@@ -66,15 +66,25 @@
     }
     
     .contenidoSliderClientes{
-        width: 18rem;
+        width: 17.6rem;
         display: flex;
         justify-content: center;
         overflow: hidden;
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
     
     .clienteSlider{
         width: 20rem;
         margin-left: 10rem;
+    }
+
+    .textoClientes{
+        font-size: 18px;
+    }
+
+    .nombreCliente{
+        font-size: 22px;
+        margin-top: 1px;
+
     }
 }

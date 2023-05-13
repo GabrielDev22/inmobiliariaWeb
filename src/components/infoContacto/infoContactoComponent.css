@@ -101,6 +101,7 @@ label{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: white;
         margin-top: 20px;
+        margin-left: 10px;
     }
     
     .formularioContacto{
@@ -119,6 +120,7 @@ label{
         background-color: transparent;
         color: white;
         font-size: 18px;
+        margin-left: 10px;
     }
     
     .radioInput{

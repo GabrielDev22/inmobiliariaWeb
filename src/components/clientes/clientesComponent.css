@@ -58,3 +58,23 @@
     color:#F96F6C;
     text-align: center;
 }
+
+@media (max-width: 768px){
+    .contenedorSlidierClientes{
+        width: 420px;
+        height: 40rem;
+    }
+    
+    .contenidoSliderClientes{
+        width: 18rem;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        margin-top: 5rem;
+    }
+    
+    .clienteSlider{
+        width: 20rem;
+        margin-left: 10rem;
+    }
+}

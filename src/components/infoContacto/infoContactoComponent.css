@@ -71,3 +71,68 @@ label{
     width: 30rem;
     border-radius: 10px;
 }
+
+@media (max-width: 768px){
+    .formulario{
+        width: 420px;
+        height: 40rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subtituloInfo{ 
+        margin-right: 20rem;
+        margin-top: 1rem;
+        font-size: 26px;
+    }
+
+    .textoInfo{
+       display: none;
+    }
+    
+    
+    .contenedorFormulario{
+        width: 30rem;
+        display: flex;
+    }
+    
+    label{
+        font-size: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    .formularioContacto{
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .inputContacto{
+        background-color: #eceaea;
+        width: 20rem;
+        padding: 6px;
+        outline: 0;
+        border: 0;
+        border-bottom: 3px solid white;
+        background-color: transparent;
+        color: white;
+        font-size: 18px;
+    }
+    
+    .radioInput{
+        margin-top: 40px;
+    }
+    
+    .inputRadio{
+        margin-left: 7px;
+    }
+    
+    .textareaContacto{
+        background-color: #eceaea;
+        margin-left: 10px;
+        width: 25rem;
+        border-radius: 10px;
+    }
+}

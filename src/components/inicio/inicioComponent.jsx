@@ -1,4 +1,5 @@
 import "./inicioComponent.css";
+import { Link } from "react-router-dom";
 
 export const InicioComponent = () => {
     return(
@@ -16,12 +17,12 @@ export const InicioComponent = () => {
                 <h2 className="tituloBusquedad">¿QUE ESTÁS BUSCANDO?</h2>
               <div className="subContenedorBusquedad">
                 <div className="contenidoBusquedad">
-                    <h3 className="subtituloBusquedad">Comprar</h3>
+                    <Link to='/compraExpress'><h3 className="subtituloBusquedad">Comprar</h3></Link>
                     <img className="imagenBusquedad" src="img/casaInicio.jpg" alt="" />
                 </div>
 
                 <div className="contenidoBusquedad">
-                    <h3 className="subtituloBusquedad">Venta</h3>
+                    <Link to="/ventaExpress"><h3 className="subtituloBusquedad">Venta</h3></Link>
                     <img className="imagenBusquedad" src="img/ventaCasa.jpg" alt="" />
                 </div>
             </div>

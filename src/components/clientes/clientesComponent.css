@@ -11,6 +11,7 @@
     border: 1px solid black;
     height: 40rem;
     background-color: #091D35;
+    overflow: hidden;
 }
 
 .contenidoSliderClientes{

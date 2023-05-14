@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./navBarComponent.css";
+import { Link } from "react-router-dom";
 
 export const NavBarComponent = () => {
 
@@ -10,11 +11,11 @@ export const NavBarComponent = () => {
         <div className="navbar">
             <div className="nav_logo"><span style={{color: "#E50E0B"}}>D</span>evGabriel</div>
             <div className={`nav_items ${isOpen && "open"}` }>
-                <a href="#">Inicio</a>
-                <a href="#">Propiedades</a>
-                <a href="#">Noticias</a>
-                <a href="#">Equipo</a>
-                <a href="#">Contacto</a>
+                <Link to='/'>Inicio</Link>
+                <Link to='/compraExpress'>Propiedades</Link>
+                <Link to='/'>Noticias</Link>
+                <Link to='/'>Equipo</Link>
+                <Link to='/'>Contcto</Link>
             <div className="redesSociales"> 
                 <a href="https://www.instagram.com/iamgabo22/"><img src="img/instagramWhite.svg" alt="" /></a>
                 <a href="https://es-la.facebook.com/"><img src="img/facebookWhite.svg" alt="" /></a>

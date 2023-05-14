@@ -14,8 +14,7 @@ export const NavBarComponent = () => {
                 <Link to='/'>Inicio</Link>
                 <Link to='/compraExpress'>Propiedades</Link>
                 <Link to='/noticias'>Noticias</Link>
-                <Link to='/'>Equipo</Link>
-                <Link to='/'>Contacto</Link>
+                <Link to='/equipo'>Equipo</Link>
             <div className="redesSociales"> 
                 <a href="https://www.instagram.com/iamgabo22/"><img src="img/instagramWhite.svg" alt="" /></a>
                 <a href="https://es-la.facebook.com/"><img src="img/facebookWhite.svg" alt="" /></a>

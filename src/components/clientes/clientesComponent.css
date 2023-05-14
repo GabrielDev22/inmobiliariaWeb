@@ -24,17 +24,14 @@
 .clienteSlider{
     width: 70rem;
     margin-left: 20rem;
-    border: 1px solid white;
 }
 
 .btnLeft{
     background-color: #091D35;
-    border: 1px solid white;
 }
 
 .btnRight{
     background-color: #091D35;
-    border: 1px solid white;
 }
 
 .flechaLeft{    

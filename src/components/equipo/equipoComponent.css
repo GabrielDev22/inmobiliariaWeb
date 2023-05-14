@@ -1,0 +1,63 @@
+.contenedorEquipo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidoEquipo{
+    width: 30rem;
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px #07192e;
+    margin-left: 12rem;
+    margin-bottom: 5rem;
+}
+
+.nombreEquipo{
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #07192e;
+    text-align: center;
+}
+
+.numeroEquipo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #07192e;
+    text-align: center;
+}
+
+.imagenEquipo{
+    width: 25rem;
+    height: 30rem;
+    object-fit: cover;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.tituloCorreoEquipo{
+    font-size: 26px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.correoEquipo{
+    font-size: 20px;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px){
+    .contenidoEquipo{
+        width: 24rem;
+        border: 1px solid white;
+        box-shadow: 5px 5px 10px #07192e;
+        margin-left: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    .imagenEquipo{
+        width: 20rem;
+        height: 20rem;
+        object-fit: cover;
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+}

@@ -8,12 +8,10 @@ export const ClientesComponent = () => {
                     <div className="contenedorSlidierClientes">
                         <div className="contenidoSliderClientes">
                             <div className="clienteSlider">
-                            <button className="btnLeft"><img className="flechaLeft" src="img/flechaLeft.svg" alt="" /></button>
                             <p className="textoClientes">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptatem, amet cum suscipit sed voluptas deleniti itaque quae, quidem unde eligendi iusto odio corporis porro hic qui? Quibusdam, labore suscipit.
                             </p>
                             <h3 className="nombreCliente">Alexander Baral </h3>
-                        <button className="btnRight"><img className="img/flechaRight"  src="img/flechaRight.svg" alt="" /></button>
                         </div>
 
                         <div className="clienteSlider">

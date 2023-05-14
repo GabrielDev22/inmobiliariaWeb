@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./ventaComponent.css";
 
 export const VentaComponent = () => {
@@ -154,7 +155,7 @@ export const VentaComponent = () => {
                 </div>
             </div>
 
-            <button className="btnCompra"><a className="linkCompra" href="">Ver mas</a></button>
+            <Link className="linkCompra" to='/compraExpress'><button className="btnCompra">Ver mas</button></Link>
             <hr />
         </div>
     )

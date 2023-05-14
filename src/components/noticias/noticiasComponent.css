@@ -1,0 +1,103 @@
+.subtituloNoticias{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 30px;
+    color: #0D1D30;
+}
+
+.tituloNoticias{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    color: #0D1D30;    
+    font-size: 48px;
+}
+
+.contenedorNoticias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenidoNoticias{
+    width: 45rem;
+    height: 55rem;
+    border-radius: 10px;
+    margin-bottom: 5rem;
+    border: 1px solid white;
+    box-shadow: 5px 5px 10px #d3d4d5;
+}
+
+.fechaNoticias{
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#031429;
+    margin-top: 1rem;
+    margin-left: 6.5rem;
+}
+
+.lugarNoticias{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#031429;
+    margin-top: 1rem;
+    margin-left: 6.5rem;
+}
+
+.textoNoticas{
+    font-family: cursive;
+    color:#031429;
+    margin-top: 0.5rem;
+    margin-left: 6.5rem;
+}
+
+.imagenNoticias{
+    width: 500px;
+    height: 400px;
+    margin-left: 6.5rem;
+    margin-top: 2rem;
+    object-fit: cover;
+}
+
+.descripcionNoticias{
+    width: 500px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2rem;
+    margin-left: 6.5rem;
+}
+
+@media (max-width: 768px){
+    .contenedorNoticias{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contenidoNoticias{
+        width: 30rem;
+        height: 55rem;
+        border-radius: 10px;
+        margin-bottom: 5rem;
+        border: 1px solid white;
+        box-shadow: 5px 5px 10px #d3d4d5;
+    }
+
+    .imagenNoticias{
+        width: 300px;
+        height: 200px;
+        margin-left: 6.5rem;
+        margin-top: 2rem;
+        object-fit: cover;
+    }
+
+    .descripcionNoticias{
+        width: 300px;
+        font-size: 18px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 2rem;
+        margin-left: 6.5rem;
+    }
+}
